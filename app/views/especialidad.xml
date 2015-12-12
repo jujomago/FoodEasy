@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="wrapper_especialidad">
+		   <ImageView id="imagenPlato" touchEnabled="false"/>
+           <Label id="nombrePlato" touchEnabled="false"/>
+           <View id="cinta" class="ribbon"></View>
+           <Label id="precioPlato" touchEnabled="false"/>
+	</View>
+</Alloy>

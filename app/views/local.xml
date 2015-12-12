@@ -1,0 +1,9 @@
+<Alloy>
+    <Window class="container"  onOpen="alAbrirLocal">
+        <Label id="labelEspecialidades" text="Especialidad de la Casa"/>
+        <ScrollableView id="scrollableEpecialidades" />
+        <Label id="labelMenu" text="=== Menu ==="/>
+        <ScrollView id="scrollMenu"/> 
+    </Window>
+</Alloy>
+ 

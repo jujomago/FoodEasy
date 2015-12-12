@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" onOpen="alAbrirLocales">
+		<ScrollView id="localesScrollView" onClick="onClicScroll"/>
+	</Window> 
+</Alloy>

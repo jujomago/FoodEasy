@@ -1,0 +1,13 @@
+"ImageView":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL
+},
+"#categoryScrollView": {
+	top:0,
+	"width": Ti.UI.FILL,
+	layout:"horizontal",
+	contentHeight: Ti.UI.SIZE,
+	contentWidth: Ti.UI.SIZE,
+	scrollType:"vertical",
+	"showVerticalScrollIndicator": "true"
+}

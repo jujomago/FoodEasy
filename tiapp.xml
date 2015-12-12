@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.sinapsysit.foodeasy</id>
+    <name>Food Easy</name>
+    <version>1.0</version>
+    <publisher>jujomago</publisher>
+    <url>http://sinapsysit.com</url>
+    <description>FoodEasy te permite ver los locales de comida de toda Tarija en tu mano</description>
+    <copyright>2015 by jujomago</copyright>
+    <icon>plato.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>84f43b6c-b4e0-4265-9fff-eb21e8751884</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--manifest>
+            <application android:theme="@style/Theme.NoActionBar"/>
+            <application android:screenOrientation="portrait" android:theme="@style/Theme.MyAppTheme">
+                <activity
+                    android:configChanges="keyboardHidden|orientation"
+                    android:name="org.appcelerator.titanium.TiActivity" android:screenOrientation="portrait"/>
+            </application>
+            <uses-sdk android:minSdkVersion="14"/>
+            <uses-sdk android:targetSdkVersion="21"/>
+        </manifest-->
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">com.alcoapps.actionbarextras</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.0.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">565d1d592fb374ee42645395</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">rE1YWwSutxDwLubgIOB05edWoKYg3SKG</property>
+    <property name="acs-oauth-key-development" type="string">y7knFvuuzTOL75uLLVWvMS1AYPPRxEA5</property>
+    <property name="acs-api-key-development" type="string">6Mh03Uux5YhbenLTEuYuxSvfZip9IJE9</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">cpti7yaVMZyKxABzHU</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">ER2CPn4rmPFMtxVqbn92dAgsKzPQ8FK0</property>
+    <property name="acs-oauth-key-production" type="string">LZNJ3mmv9X9yLkyUqkYljxNwy1h1iuUz</property>
+    <property name="acs-api-key-production" type="string">EDS0zNrjNHulNTTM3iZUbLuwVNIQ7pZm</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">GhFxnzeU9KN311x0dR</property>
+    <property name="appc-org-id" type="string">100032587</property>
+    <property name="appc-creator-user-id" type="string">3935c686-96d8-437f-b49a-eaf947a94233</property>
+</ti:app>

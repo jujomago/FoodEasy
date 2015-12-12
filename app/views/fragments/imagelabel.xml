@@ -1,0 +1,7 @@
+<Alloy>
+	<View class="categoria">   
+           <ImageView id="ImageView_1" touchEnabled="false"/>
+           <View class="ribbon" touchEnabled="false"></View>
+           <Label id="titleCat" touchEnabled="false" class="cat_title"/>
+     </View>  
+</Alloy>

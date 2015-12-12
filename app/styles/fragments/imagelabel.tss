@@ -1,0 +1,26 @@
+".categoria": {
+	backgroundColor: "#CF450A"
+}
+".cat_title": { 
+	"color": "#fff",
+	"font": {fontSize:'17sp'},
+	/*"shadowColor": "#000000",
+	shadowRadius:10,
+	shadowOffset:{x:0,y:0}, */
+	bottom:"8%",
+	
+}
+".ribbon":{
+	//backgroundColor: "#fff",
+	 backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '0%', y: '0%' },
+        endPoint: { x: '100%', y: '100%' },
+        colors: [ { color: '#CF450A', offset: 0.0}, { color: 'black', offset: 0.5 }, { color: '#CF450A', offset: 1.0 } ],
+    },
+	height:'30%',
+	bottom:0,
+	width: "100%",	
+	opacity: 0.4,
+	//borderRadius: 10
+}

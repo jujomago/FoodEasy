@@ -1,0 +1,9 @@
+"#localesScrollView": {
+	backgroundColor:"brown",
+	"width": Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout:"vertical",
+	contentHeight: Ti.UI.SIZE,
+	contentWidth: Ti.UI.SIZE,
+	scrollType:"vertical"	 
+}

@@ -1,0 +1,25 @@
+".wrapper_especialidad":{
+
+	},
+	"#imagenPlato":{
+
+		},"#nombrePlato":{
+			textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+			color:"white",
+			top:8,
+			"font": {fontSize:'22sp'},
+			shadowColor: "#000000",
+			shadowRadius:15,
+			shadowOffset:{x:0,y:0} 
+		},"#precioPlato":{
+			textAlign:Ti.UI.TEXT_ALIGNMENT_RIGHT,
+			color:"yellow",
+			right: 10,			
+			bottom:8,
+			"font": {fontSize:'17sp'}
+		},".ribbon":{
+			backgroundColor: "black",
+			opacity: 0.5,
+			height: "20%",
+			bottom: 0
+		}

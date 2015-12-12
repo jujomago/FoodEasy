@@ -1,0 +1,6 @@
+<Alloy>
+    <Window  class="container" onOpen="alAbrir" exitOnClose="true"> 
+        <ActivityIndicator id="actInd" message="Cargando datos..."/>
+        <ScrollView id="categoryScrollView" onClick="onClicScroll" />
+    </Window> 
+</Alloy>

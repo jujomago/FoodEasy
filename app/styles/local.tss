@@ -1,0 +1,36 @@
+".container": {
+	backgroundColor: "white"
+},
+"#labelEspecialidades": {
+	"left": "0",
+	"top": "8",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+	"width": Ti.UI.FILL,
+	"font": {fontSize:'18sp',fontFamily:'Chunkfive'},
+	"color": "orange"
+},
+"#scrollableEpecialidades": {
+	"backgroundColor": "#c0c0c0",
+	 width: Ti.UI.FILL,
+	 top: 10,
+	 height:"35%",
+	showPagingControl:true,
+	pagingControlColor: "yellow",
+	pagingControlOnTop: true
+},
+"#labelMenu": {
+	"top": "5", 
+	"color": "#d66614",
+	"font": {fontSize:'18sp',fontFamily:'Chunkfive'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#scrollMenu": {
+	"backgroundColor": "#fae0cf",
+	"scrollType": "vertical",
+	"showVerticalScrollIndicator": "true",
+	"top": "10",
+	layout:"horizontal",
+	"width": Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE,
+	contentWidth: Ti.UI.SIZE
+}
